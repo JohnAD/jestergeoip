@@ -1,6 +1,6 @@
 Introduction to jestergeoip
 ==============================================================================
-ver 1.0.0
+ver 1.0.1
 
 This is a plugin for the nim web
 framework `Jester <https://github.com/dom96/jester>`__. It pulls location
@@ -26,7 +26,7 @@ EXAMPLE
 .. code:: nim
 
     import json
-    import jester
+    import jesterwithplugins
     import jestergeoip
 
     proc namePage(loc: JsonNode): string =

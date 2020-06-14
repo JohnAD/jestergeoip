@@ -20,7 +20,7 @@ getGeoIP
 
         proc getGeoIP*(request: Request, response: ResponseData, sqliteDbFile: string): JsonNode =
 
-    source line: `75 <../src/jestergeoip.nim#L75>`__
+    source line: `76 <../src/jestergeoip.nim#L76>`__
 
     This is the psuedo-procedure to invoke to enable the library plugin.
     

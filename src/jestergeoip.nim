@@ -1,11 +1,12 @@
-import times
-import strutils
-import json
-import httpclient
-import db_sqlite
+import
+  times,
+  strutils,
+  json,
+  httpclient,
+  db_sqlite
 
 import
-  jester
+  jesterwithplugins
 
 ## This is a plugin for the nim web
 ## framework `Jester <https://github.com/dom96/jester>`__. It pulls location
@@ -31,7 +32,7 @@ import
 ## .. code:: nim
 ##
 ##     import json
-##     import jester
+##     import jesterwithplugins
 ##     import jestergeoip
 ##     
 ##     proc namePage(loc: JsonNode): string =

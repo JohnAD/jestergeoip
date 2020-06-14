@@ -1,6 +1,6 @@
 # Package
 
-version      = "1.0.0"
+version      = "1.0.1"
 author       = "John Dupuy"
 description  = "A plugin for Jester that gets location data from an IP address using a GeoIP library service (currently GeoJS)."
 license      = "MIT"
@@ -9,4 +9,4 @@ skipExt      = @["rst"]
 
 # Dependencies
 
-requires "nim >= 1.0.0", "jester >= 0.4.3"
+requires "nim >= 1.2.0", "jesterwithplugins >= 0.5.0"

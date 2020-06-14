@@ -1,6 +1,6 @@
 Introduction to jestergeoip
 ==============================================================================
-ver 1.0.0
+ver 1.0.1
 
 .. image:: https://raw.githubusercontent.com/yglukhov/nimble-tag/master/nimble.png
    :height: 34
@@ -38,7 +38,7 @@ EXAMPLE
 .. code:: nim
 
     import json
-    import jester
+    import jesterwithplugins
     import jestergeoip
 
     proc namePage(loc: JsonNode): string =
